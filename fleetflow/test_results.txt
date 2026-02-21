@@ -1,0 +1,50 @@
+﻿============================================================
+  FLEETFLOW API TEST SUITE
+============================================================
+
+--- AUTH MODULE ---
+[FAIL] Login (Fleet Manager) (HTTP 0)
+       Token: ...
+
+php : PHP Warning:  Trying to access array offset on value of type null in C:\fleetflow\test_api.php on line 58
+At line:1 char:1
++ php test_api.php 2>&1 | Out-File c:\fleetflow\test_results.txt -Encod ...
++ ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified:     (PHP Warning:  T....php on line 58:Strin    g) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandE    rror
+ 
+Warning: Trying to access array offset on value of type null in C:\fleetflow\test_api.php on line 58
+PHP Warning:  Trying to access array offset on value of type null in C:\fleetflow\test_api.php on line 58
+
+Warning: Trying to access array offset on value of type null in C:\fleetflow\test_api.php on line 58
+PHP Warning:  Trying to access array offset on value of type null in C:\fleetflow\test_api.php on line 58
+
+Warning: Trying to access array offset on value of type null in C:\fleetflow\test_api.php on line 58
+PHP Warning:  Trying to access array offset on value of type null in C:\fleetflow\test_api.php on line 58
+
+Warning: Trying to access array offset on value of type null in C:\fleetflow\test_api.php on line 58
+PHP Warning:  Trying to access array offset on value of type null in C:\fleetflow\test_api.php on line 58
+
+Warning: Trying to access array offset on value of type null in C:\fleetflow\test_api.php on line 58
+PHP Warning:  Trying to access array offset on value of type null in C:\fleetflow\test_api.php on line 58
+
+Warning: Trying to access array offset on value of type null in C:\fleetflow\test_api.php on line 58
+       User:  ()
+
+[FAIL] Login with wrong password rejected (HTTP 0)
+[FAIL] Get Profile (/auth/me) (HTTP 0)
+PHP Warning:  Trying to access array offset on value of type null in C:\fleetflow\test_api.php on line 69
+
+Warning: Trying to access array offset on value of type null in C:\fleetflow\test_api.php on line 69
+PHP Warning:  Trying to access array offset on value of type null in C:\fleetflow\test_api.php on line 69
+
+Warning: Trying to access array offset on value of type null in C:\fleetflow\test_api.php on line 69
+PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\fleetflow\test_api.php:69
+Stack trace:
+#0 {main}
+  thrown in C:\fleetflow\test_api.php on line 69
+
+Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\fleetflow\test_api.php:69
+Stack trace:
+#0 {main}
+  thrown in C:\fleetflow\test_api.php on line 69
